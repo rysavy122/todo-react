@@ -17,9 +17,15 @@
 h1{
   padding:20px;
 }
-
 p{
   padding:20px 0px;
   line-height: 30px;
 }
-
+#neuTodo{
+  height:50px;
+  width:90%;
+  font-size:1.1rem;
+  border: 1px solid grey;
+  background-color: #EFECEC;
+  padding-left:2%;
+}
