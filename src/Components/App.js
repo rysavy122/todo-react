@@ -1,21 +1,29 @@
+import React, {useState} from 'react';
 import Header from './Header';
 import Input from '../Components/Input';
 import Date from '../Components/Date';
-import Aufgabe from '../Components/Aufgabe';
-import Todo from '../Components/Todo';
+import Aufgaben from '../Components/Aufgaben';
+import Aufgabe from './Aufgabe';
+import Todos from '../Components/Todos';
 import UnorderedList from '../Components/UnorderedList';
 import DeleteAllButton from '../Components/DeleteAllButton';
 
 
 function App() {
+  const [input, setInput] = useState( [] )
+  
+
+
   return (
     <div className="App">
      <Header/>
      <Date />
-     <Input />
-     <Aufgabe />
+     <Input>
+     </Input>
+     <Aufgaben />
+     <Aufgabe  />
      <UnorderedList>
-        <Todo />    
+       <Todos />    
      </UnorderedList>
      <DeleteAllButton />
     </div>
