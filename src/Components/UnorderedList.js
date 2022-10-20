@@ -1,14 +1,16 @@
 import React from 'react'
 import '../App.css'
-import Todo from './Todo';
+import Todos from './Todos';
+import Aufgabe from './Aufgabe';
 
-const UnorderedList = () => {
+const UnorderedList = (todos) => {
   return (
     <div>
         <ol>
-            <Todo />
-            <Todo />
-            <Todo />
+            <Todos />
+            
+            <Todos />
+            <Todos />
 
         </ol>
     </div>

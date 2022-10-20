@@ -1,17 +1,12 @@
 import React from 'react'
 
-const Todo = () => {
+const Aufgabe = () => {
+   
   return (
-    <div><h2 >Aufgabe</h2>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
+    <div>
+        
     </div>
-
   )
 }
 
-export default Todo
+export default Aufgabe
